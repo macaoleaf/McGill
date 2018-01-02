@@ -1,0 +1,9 @@
+import java.util.Arrays;
+
+public class largestAverage{
+  public static void main(String[] args){
+    double[] [] arr = {{1.5, 2.3, 5.7}, {12.5, -50.25}};
+    double[] largest = largestAverage(arr);
+    System.out.println(Arrays.toString(largest));
+  }
+}

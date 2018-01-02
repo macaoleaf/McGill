@@ -1,0 +1,16 @@
+public class Counting
+{
+    public static void main(String[] args)
+    {
+        int boundary = Integer.parseInt(args[0]);
+        counting(boundary);
+    }
+    public static int counting(boundary)
+    {
+        System.out.println("I am counting until " + boundary + ":  ");
+        for(n = 1; n < boundary; n++)
+        {
+            System.out.print(n + " ");
+        }
+    }
+}

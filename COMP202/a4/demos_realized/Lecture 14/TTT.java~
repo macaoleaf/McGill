@@ -1,0 +1,19 @@
+//this is a demo in class
+public class TTT{
+  public static void main(String[] args){
+    createBoard();
+  }
+  //create the board
+  //the board will be a 3*3 array of char arrays
+  public static char[][] createBoard(){
+    //create board of 3 by 3
+    char[][] board = new char[3][3];
+    //initialize all entries to be a space
+    for(int row = 0; row < board.length; row++){
+      for(int col = 0; col < board[row].length; col++){
+        board[row][col] = ' ';
+      }
+    }
+    return board;
+  }
+}

@@ -1,0 +1,13 @@
+public class exchange
+{
+    public static void main(String[] args)
+    {
+        int x = Integer.parseInt(args[0]);
+        int y = Integer.parseInt(args[1]);
+        swap();
+    }
+    public static int swap(int x, int y)
+    {
+        System.out.println("inside swap:  x is: " + x + " y is: " + y);
+    }
+}

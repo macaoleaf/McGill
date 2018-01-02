@@ -1,0 +1,12 @@
+public class getRandomNumber
+{
+    public static void main(String[] args)
+    {
+        System.out.println(getRandomNumber());
+    }
+    public static double getRandomNumber()
+    {
+        double num = Math.random() * 10;
+        return num;
+    }
+}

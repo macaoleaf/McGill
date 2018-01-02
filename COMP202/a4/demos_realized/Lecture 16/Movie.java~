@@ -1,0 +1,6 @@
+public class Movie{
+  //non-static class variables
+  public String title;
+  public String director;
+  public String[] actors;
+} 

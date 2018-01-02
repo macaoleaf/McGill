@@ -1,0 +1,13 @@
+public class Dog{
+  private name;
+  private breed;
+  public Dog(String name, String breed){
+    this.name = name;
+    this.breed = breed;
+  }
+  public static int herd(){
+    if(this.name.toLowerCase().contains("collie")){
+      return 20;
+    }
+  }
+}

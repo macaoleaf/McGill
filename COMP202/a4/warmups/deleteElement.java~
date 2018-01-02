@@ -1,0 +1,10 @@
+public class deleteElement{
+  public static void main(String[] args){ // for test
+  
+  }
+  public static int[] deleteElement(int[] a, int target){
+    int[] result;
+    
+    return result;
+  }
+}

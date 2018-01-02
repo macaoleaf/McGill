@@ -1,0 +1,22 @@
+//imports all the file reading/writing objects we need
+import java.io.*;
+public class fileReading{
+  public static void main(String[] args){
+    String filename = "dictionary.txt";
+    try{
+      //create the FileReader
+      FileReader fr = new FileReader(filename);
+      //create the BufferedReader
+      BufferedReader br = new BufferedReader(fr);
+      String currentLine = br.readLine();
+      while(currentLine != null){
+        System.out.println(currentLine);
+        currentLine = br.readLine();
+      }
+    }catch(FileNotFoundException e){
+      System.out.println("File not found: " + filename);
+    }catch(IOException e){
+      System.out.println("Error with file: " + filename);
+    }
+  }
+}

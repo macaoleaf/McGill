@@ -1,0 +1,13 @@
+public class Circle{
+  public static void main(String[] args){
+    verifyInput(-1, 2, 3);
+  }
+  public static boolean onCircle(int r, int a, int b, int x, int y){
+    return (r ^ 2 <= ((x - a) ^ 2 + (y - b) ^ 2) && ((x - a) ^ 2 + (y - b) ^ 2) <= (r ^ 2 + 1));
+  }
+  public static void verifyInput(int r, int a, int b){
+    if(a < r || b < r || r <= 0){
+      String error = "Illgal data to draw a circle in the first quadrant!";
+      throw new IllegalArgumentException(error);
+  }
+}

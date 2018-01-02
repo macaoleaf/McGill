@@ -1,0 +1,7 @@
+import java.util.Random;
+public class Sheep{
+  private String name;
+  private int age;
+  private boolean hasWool;
+  private static Random numberGenerator(123);
+}

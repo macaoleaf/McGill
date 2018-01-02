@@ -1,0 +1,3 @@
+fireball 5 10 0.5
+icestorm 1 7 0.9
+meteorstrike 10 10 0.05

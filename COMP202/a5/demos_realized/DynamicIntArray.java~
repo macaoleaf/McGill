@@ -1,0 +1,57 @@
+public class DynamicIntArray{
+  //the actual array of elements
+  private int[] arr;
+  
+  //how many elements have been added to that array
+  private int numElements;
+  
+  public DynamicIntArray(){
+    arr = new int[2];
+    numElements = 0;
+  }
+  
+  public DynamicIntArray(int size){
+    if(size < 0){
+      throw new IllegalArgumentException("Invalid size");
+    }
+    
+    arr = new int[size];
+    numElements = 0;
+  }
+  
+  public String toString(){
+    String s = "Array: [";
+    for(int i = 0; i < this.numElements; i++){
+      s += arr[i] + ", ";
+    }
+    return s + "]";
+  }
+  
+  public void add(int x){
+    //if we've run out of space
+    if(numElements >= arr.length){
+      //we need to resize the inner array
+      resize{};
+    }
+    
+    arr[numElements] = x;
+    numElements++;
+    System.out.println("Debug: Now contains " + numElements + " elements");
+  }
+  
+  //resize method
+  //this method will double the reserved space
+  //by creating a new array of double the space
+  //and copying over all the existing elements
+  private void resize(){
+    int[] newArr = new int[arr.length * 2];
+    for(int i = 0; i < arr.length; i++){
+      newArr[i] = arr[i];
+    }
+    this.arr = newArr;
+  }
+  
+  public static void main(String[] args){
+    DynamicIntArray dia = new DynamicIntArray();
+  }
+}

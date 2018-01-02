@@ -1,0 +1,16 @@
+public class shiftString{
+  public static void main(String[] args){
+    int n = Integer.parseInt(args[0]);
+    System.out.println("banana", n);
+  }
+  public static String shiftString(String s, int n){
+    String shift = "";
+    for(int a = n; a <= s.length(); a++){
+      shift = shift + str.charAt(a);
+    }
+    for(int a = 0; a <= (n - 1); a++){
+      shift = shift + str.charAt(a);
+    }
+    return shift;
+  }
+}

@@ -1,0 +1,24 @@
+ZishengdeMBP:a5 zisheng$ git log
+commit 24e0ec13d35370987ffe0d2ea4a07a1eb934c233 (HEAD -> master, origin/master, origin/HEAD)
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Sun Nov 26 23:44:36 2017 -0500
+
+    a5 finished
+
+commit bc197301ca16d50603470dad0d3500d35ff8c69c
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Sun Nov 26 22:06:29 2017 -0500
+
+    few bugs to be fixed
+
+commit ad26b292ce9b2d0fe60127e9c1452eb4a69ce33d
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Sun Nov 26 21:41:00 2017 -0500
+
+    requests added on assignment
+
+commit bb059bd6646c859a2f5045cba98068c62da3f269
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Sun Nov 26 21:36:19 2017 -0500
+
+//I don't know why there are only these left... I made more than these commits obviously.

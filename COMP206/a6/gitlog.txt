@@ -1,0 +1,47 @@
+commit a0ac73c63e98134d3de89db4b4711506ddb9a0ab (HEAD -> master, origin/master, origin/HEAD)
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Fri Dec 8 23:44:04 2017 -0500
+
+    bug remained
+
+commit 556d4d1cffdf5b39f43bfdb4204c7fc08ba4453a
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Fri Dec 8 19:05:20 2017 -0500
+
+    new code first test
+
+commit b1beb20a33a784dbe6f9543debf9f53f03e7f22f
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Fri Dec 8 17:40:02 2017 -0500
+
+    something wrong, need changing
+
+    seriously......
+
+commit bd493346a3d2c9008b7572032f79fcb086c955aa
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Fri Dec 8 17:38:54 2017 -0500
+
+    producer and datafile added
+
+
+commit 926d4c0e2930d204a25cbd51d139d60c973e19bf
+Date:   Thu Dec 7 17:37:27 2017 -0500
+
+    makefile edited
+
+commit 6dc98c6c03b4836bf0b113ed45723fc77b13eb2e
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Mon Dec 4 23:36:22 2017 -0500
+
+    first part from Alex
+
+commit 379c319aecbdeb04a25c17172e9c26d4cea4d226
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Mon Nov 27 02:56:13 2017 -0500
+
+    a6 created
+
+commit d87f5e1c8baae788fc1c114dfea11840408b573d
+Author: macaoleaf <yezisheng1997@gmail.com>
+Date:   Mon Nov 27 02:56:01 2017 -0500

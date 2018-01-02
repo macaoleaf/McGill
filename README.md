@@ -1,2 +1,8 @@
 # McGill-Materials
-all work at school included
+Contents:
+
+COMP202 Foundation of Programming
+
+COMP206 Introduction to Software Systems
+
+COMP250 Introduction to Computer Science

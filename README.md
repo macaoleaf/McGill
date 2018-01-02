@@ -1,5 +1,4 @@
-# McGill-Materials
-Contents:
+# Contents:
 
 COMP202 Foundation of Programming
 

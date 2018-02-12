@@ -9,3 +9,5 @@ COMP250 Introduction to Computer Science
 COMP251 Algorithms and Data Structures (current)
 
 COMP302 Programming Languages and Paradigms (current)
+
+MATH340 Discrete Structures 2 (current)

@@ -6,8 +6,10 @@ COMP206 Introduction to Software Systems
 
 COMP250 Introduction to Computer Science
 
-COMP251 Algorithms and Data Structures (current)
+COMP251 Algorithms and Data Structures
 
-COMP302 Programming Languages and Paradigms (current)
+COMP302 Programming Languages and Paradigms
 
-MATH340 Discrete Structures 2 (current)
+COMP350 Numerical Computing (current)
+
+MATH340 Discrete Structures 2
